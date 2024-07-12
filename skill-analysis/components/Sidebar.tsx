@@ -3,20 +3,20 @@ import Link from 'next/link';
 
 const Sidebar = () => {
   return (
-    <aside className="w-1/5 bg-gray-800 text-white h-screen p-4">
-      <h2 className="text-xl font-bold mb-4">Menu</h2>
-      <ul>
-        <li className="mb-2">
-          <Link href="/">Dashboard</Link>
-        </li>
-        <li className="mb-2">
-          <Link href="/skill-test">Skill Test</Link>
-        </li>
-        <li className="mb-2">
-          <Link href="/internship">Internship</Link>
-        </li>
-      </ul>
-    </aside>
+    <div className="w-64 h-screen bg-gray-100 p-4">
+      <div className="text-2xl font-bold mb-6">WhatBytes</div>
+      <nav className="flex flex-col space-y-4">
+        <Link href="/dashboard" legacyBehavior>
+          <a className="text-lg text-gray-700">Dashboard</a>
+        </Link>
+        <Link href="/skill-test" legacyBehavior>
+          <a className="text-lg text-gray-700">Skill Test</a>
+        </Link>
+        <Link href="/internship" legacyBehavior>
+          <a className="text-lg text-gray-700">Internship</a>
+        </Link>
+      </nav>
+    </div>
   );
 };
 
