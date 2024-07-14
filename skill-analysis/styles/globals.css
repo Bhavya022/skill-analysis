@@ -1,90 +1,22 @@
-/* styles/globals.css */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+/* globals.css */
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #f9f9f9;
+  background-color: #f9fafb;
+}
+
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
-.text-lg {
-  font-size: 1.125rem;
+button {
+  transition: background-color 0.3s ease;
 }
 
-.text-gray-600 {
-  color: #718096;
+button:hover {
+  background-color: #2563eb;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.bg-gray-100 {
-  background-color: #f7fafc;
-}
-
-.bg-white {
-  background-color: #ffffff;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
-.shadow-md {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
-.flex {
-  display: flex;
-}
-
-.space-x-4 > :not(template) ~ :not(template) {
-  margin-left: 1rem;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.h-2 {
-  height: 0.5rem;
-}
-
-.bg-blue-500 {
-  background-color: #4299e1;
-}
-
-.bg-orange-500 {
-  background-color: #ed8936;
-}
-
-.bg-red-500 {
-  background-color: #f56565;
-}
-
-.bg-green-500 {
-  background-color: #48bb78;
+.flex.items-center.space-x-2 span {
+  padding-left: 0.5rem;
 }

@@ -3,7 +3,8 @@
 
 import Sidebar from '../components/Sidebar';
 import Header from '../components/Header';
-import MainContent from '../components/MainContent';
+import MainContent from '../components/MainContent'; 
+import SkillTest  from '../pages/skill-test';
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
       <Sidebar />
       <div className="flex flex-col flex-grow">
         <Header />
-        <MainContent />
+        <SkillTest />
       </div>
     </div>
   );
