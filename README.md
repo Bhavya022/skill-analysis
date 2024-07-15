@@ -116,4 +116,9 @@ Alternatively, you can use the Netlify web interface for deployment:
 Contributions are welcome! Please follow these steps to contribute:
 
 1. Fork the repository.
-2. Create a new branch (`git checkout -b
+2. Create a new branch (`git checkout -b`)
+
+## Screenshot
+
+![Skill Analysis Screenshot](./components/Screenshot%20(12).png)
+
