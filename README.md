@@ -120,5 +120,5 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## Screenshot
 
-![Skill Analysis Screenshot](./components/Screenshot%20(12).png)
+![Skill Analysis Screenshot](https://github.com/Bhavya022/skill-analysis/blob/main/skill-analysis/components/Screenshot%20(12).png)
 
