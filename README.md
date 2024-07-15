@@ -1,5 +1,4 @@
 # skill-analysis
-# Skill Analysis Dashboard
 
 A web application to analyze skills based on various parameters and provide insights through visualizations.
 
